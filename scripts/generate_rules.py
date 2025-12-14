@@ -12,6 +12,7 @@ RULES_ROOT = os.path.join(SCRIPT_DIR, '..', 'rules')
 PRESETS = {
     'cocos': [
         'common/global_style.md',
+        'common/workflow.md',  # <--- 新增这一行！
         'engines/cocos.md'
     ],
     'unity': [
